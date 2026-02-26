@@ -1,9 +1,21 @@
 {
     "name": "qpay-sdk/magento2-payment",
-    "description": "QPay V2 payment module for Magento 2",
+    "description": "QPay V2 payment gateway module for Magento 2 / Adobe Commerce. Accept payments via QR code and bank app deeplinks.",
     "type": "magento2-module",
     "version": "1.0.0",
     "license": "MIT",
+    "homepage": "https://github.com/qpay-sdk/qpay-magento",
+    "keywords": ["magento2", "payment", "qpay", "mongolia", "qr-code", "gateway"],
+    "authors": [
+        {
+            "name": "QPay SDK",
+            "homepage": "https://github.com/qpay-sdk"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/qpay-sdk/qpay-magento/issues",
+        "source": "https://github.com/qpay-sdk/qpay-magento"
+    },
     "autoload": {
         "psr-4": { "QPay\\Payment\\": "" },
         "files": ["registration.php"]
@@ -13,9 +25,9 @@
     },
     "require": {
         "php": "^8.1",
-        "magento/framework": "*",
-        "magento/module-payment": "*",
-        "magento/module-sales": "*"
+        "magento/framework": ">=103.0",
+        "magento/module-payment": ">=100.4",
+        "magento/module-sales": ">=103.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^10.0|^11.0"
