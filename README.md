@@ -1,5 +1,7 @@
 # QPay Magento 2 Payment Module
 
+[![CI](https://github.com/qpay-sdk/qpay-magento/actions/workflows/ci.yml/badge.svg)](https://github.com/qpay-sdk/qpay-magento/actions)
+
 QPay V2 payment module for Magento 2.
 
 ## Install
