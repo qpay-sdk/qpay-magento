@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <qpay>
+                <active>0</active>
+                <title>QPay</title>
+                <base_url>https://merchant.qpay.mn</base_url>
+                <order_status>processing</order_status>
+                <model>QPay\Payment\Model\QPayPaymentMethod</model>
+                <sort_order>10</sort_order>
+            </qpay>
+        </payment>
+    </default>
+</config>
